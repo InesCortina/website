@@ -1,3 +1,32 @@
-body {
-  color: red;
+* {
+  text-align: center;
+  font-size: 30px;
 }
+body {
+  background-color: #eae9ef;
+}
+h1 {
+  font-size: 40px;
+}
+div {
+  display: flex;
+  border: red;
+  flex-direction: row;
+  flex: 1;
+}
+
+button {
+  flex: 2;
+  gap: 10%;
+  background: white;
+  border-radius: 20px;
+}
+
+img {
+  width: 50%;
+}
+
+p2 {
+  font-size: 20px;
+}
+
